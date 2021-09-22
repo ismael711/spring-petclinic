@@ -9,7 +9,7 @@ services:
        MYSQL_DATABASE: petclinic
 
    app:
-     image: silascmv/repository/petclinic:1.0
+     image: ismael711/repository/petclinic:1.0
      container_name: app
      depends_on:
        - mydatabase
